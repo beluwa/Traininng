@@ -54,11 +54,28 @@ knitr::opts_chunk$set(echo = FALSE)
 
  => Start Digitization
 
-## Practice
+## Digitization for Chock, Feature, Road and River
 
- => Practice on making Chock, Feature, Road and Rivers 
+ => Digitization for Chock
+ 
+ => Digitization for Feature
+ 
+ => Digitization for Road
+ 
+ => Digitization for River
 
- => We will Continue our practice for Digitization
+## What to send to the CBS after Digitization
+
+ => Send Zipped File (ABC_NP.gdb.ZIP) to the CBS
+ 
+ 
+## Practice Practice .....
+
+ => Use Tokha_NP_W6 Shape file and use arbitary values for attributes
+
+ => Create at least 10 blocks to complete the ward
+
+ => Create at least 5 Chocks, Features and Roads 
  
  => Do Presentation on your Output
 
