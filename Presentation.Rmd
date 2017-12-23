@@ -1,35 +1,61 @@
 ---
-title: "Untitled"
-author: "Tika Ram Mahato"
+title: "Digitization Training"
+author: "Tika Ram Mahato, Statistical Officer, GIS Section, CBS"
 date: "December 23, 2017"
-output: ioslides_presentation
+output: 
+  ioslides_presentation: 
+    css: styles.css
+    logo: images/tika.jpg
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
+## What do we need for Digitization? 
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+ Windows OS
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+ ArcMap, ArcCatalog installed on Desktop/Laptop Compurer
 
-## Slide with Bullets
+ Shape File
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+ Internet Connection
 
-## Slide with R Output
+## How to start Digitization?
 
-```{r cars, echo = TRUE}
-summary(cars)
-```
+ Make File Geodatabase for New Shape Files
 
-## Slide with Plot
+ Load Municipality Shape File
 
-```{r pressure}
-plot(pressure)
-```
+ Load Esri Image
+
+ Load Block, Chock, Feature, Road, River Shape Files
+
+ Start Digitization
+
+## How to make File Geodatabase? 
+
+ Create .mxd File
+
+ Create File Geodatabase
+
+ Create New Shape Files (Features)
+
+ Fill Attribute Tables
+
+## How to Start Digitization?
+
+ Load Municipality Shape File
+
+ Load Esri Image
+
+ Load Block/Chock/Feature/Road/River Shape File/s
+
+ Start Digitization
+
+## Practice
+
+ We will Continue our practice for Digitization
+
 
