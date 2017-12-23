@@ -44,7 +44,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
  Fill Attribute Tables
 
-## How to Start Digitization?
+## Start Digitization
 
  Load Municipality Shape File
 
