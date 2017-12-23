@@ -14,48 +14,52 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## What do we need for Digitization? 
 
- Windows OS
+ => Windows OS
 
- ArcMap, ArcCatalog installed on Desktop/Laptop Compurer
+ => ArcMap, ArcCatalog installed on Desktop/Laptop Compurer
 
- Shape File
+ => Shape File
 
- Internet Connection
+ => Internet Connection
 
 ## How to start Digitization?
 
- Make File Geodatabase for New Shape Files
+ => Make File Geodatabase for New Shape Files
 
- Load Municipality Shape File
+ => Load Municipality Shape File
 
- Load Esri Image
+ => Load Esri Image
 
- Load Block, Chock, Feature, Road, River Shape Files
+ => Load Block, Chock, Feature, Road, River Shape Files
 
- Start Digitization
+ => Start Digitization
 
 ## How to make File Geodatabase? 
 
- Create .mxd File
+ => Create .mxd File
 
- Create File Geodatabase
+ => Create File Geodatabase
 
- Create New Shape Files (Features)
+ => Create New Shape Files (Features)
 
- Fill Attribute Tables
+ => Fill Attribute Tables
 
 ## Start Digitization
 
- Load Municipality Shape File
+ => Load Municipality Shape File
 
- Load Esri Image
+ => Load Esri Image
 
- Load Block/Chock/Feature/Road/River Shape File/s
+ => Load Block/Chock/Feature/Road/River Shape File/s
 
- Start Digitization
+ => Start Digitization
 
 ## Practice
 
- We will Continue our practice for Digitization
+ => Practice on making Chock, Feature, Road and Rivers 
+
+ => We will Continue our practice for Digitization
+ 
+ => Do Presentation on your Output
 
 

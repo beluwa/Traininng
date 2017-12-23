@@ -1,9 +1,9 @@
 h2 {
-  color: black;
+  color: #000;
   font-size: 50px;
   font-weight: bold;
-  background-color: yellow;
-  padding: 15px;
+  background-color: #f3f704;
+  padding: 10px;
 }
 
 p {
