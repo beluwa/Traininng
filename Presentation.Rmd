@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
   => Internet Connection
  
-## What do you get form CBS for digitization?
+## What do you get from CBS for digitization?
 
   => Municipality Shapefile (NP/UMNP/MNP) with WGS 1984 Geographic Coordinate system
  
