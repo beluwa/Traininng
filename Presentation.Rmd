@@ -12,66 +12,76 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
 ## What do we need for Digitization? 
 
- => Windows OS
+  => Windows OS
 
- => ArcMap, ArcCatalog installed on Desktop/Laptop Compurer
+  => ArcMap, ArcCatalog installed on Desktop/Laptop Compurer
 
- => Shape File
+  => Shape file of Municipality with WGS 1984 Geographic Coordinate system
 
- => Internet Connection
-
-## How to start Digitization?
-
- => Make File Geodatabase for New Shape Files
-
- => Load Municipality Shape File
-
- => Load Esri Image
-
- => Load Block, Chock, Feature, Road, River Shape Files
-
- => Start Digitization
-
-## How to make File Geodatabase? 
-
- => Create .mxd File
-
- => Create File Geodatabase
-
- => Create New Shape Files (Features)
-
- => Fill Attribute Tables
-
-## Start Digitization
-
- => Load Municipality Shape File
-
- => Load Esri Image
-
- => Load Block/Chock/Feature/Road/River Shape File/s
-
- => Start Digitization
-
-## Digitization for Chock, Feature, Road and River
-
- => Digitization for Chock
+  => Internet Connection
  
- => Digitization for Feature
- 
- => Digitization for Road
- 
- => Digitization for River
+## What do you get form CBS for digitization?
 
-## What to send to the CBS after Digitization
-
- => Send Zipped File (ABC_NP.gdb.ZIP) to the CBS
+  => Municipality Shapefile (NP/UMNP/MNP) with WGS 1984 Geographic Coordinate system
  
- 
-## Practice Practice .....
+  => Template of File Geodatabase (ABC_NP.gdb )
 
- => Use Tokha_NP_W6 Shape file and use arbitary values for attributes
+## Which Toolbars of ArcMap do we need ?
+
+  => Editor Toolbars ( Customize > Toolbars > Editor ) in ArcMap
+
+  => Topology Toolbar ( Editor > More Editing Tools > Topology ) in ArcMap
+
+## How to Start Digitization?
+
+  => Create a folder named (ABC_NP/MNP/MUNP) (Replace  ABC by Municipality Name like Gaidakot_NP)
+
+  => Copy and Paste ABC_NP.gdb Template and Municipality Shapefile to the above folder
+ 
+  => Open ArcMap and Save blank .mxd  file and give its name as ABC_NP(/MNP/UMNP) to the same folder (Note:  Replace  ABC by    Municipality Name like Gaidakot_NP )
+ 
+## How to Start Digitization? Continue.......
+ 
+  => Open Catalog from ArcMap
+ 
+  => Connect to the folder that we created (ABC_NP) if necessary
+ 
+  => Navigate to the folder
+ 
+## How to Start Digitization? Continue.......
+ 
+  => Rename File Geodatabase (Note: Replace ABC by Municipality Name) (Note: you can make your own file geodatabase by following step 5 )
+ 
+  => Rename five feature classes ( Note: Replace ABC by Municipality Name) and put default values for those fields which are common to the whole Municipality)
+ 
+  => Load Municipality Shape file from Catalog by drag and drop method
+ 
+## How to Start Digitization? Continue.......
+ 
+  => Load Base Map (follow step 6 )
+ 
+  => Do correction on ward boundary before starting digitization (follow step 7 for boundary correction )
+ 
+  => Load Block feature class
+ 
+## How to Start Digitization? Continue.......
+ 
+  => Start Digitization of Block (follow step 8 for digitization )
+ 
+  => After finishing digitization of block for one ward move this layer to the Not Selectable list ( Go to Table of Contents > Go to List by Selection > Move to the Not Selectable List)
+ 
+  => Load Chock Feature class and start digitization of chocks and continue the process until you finish the digitization for the whole Municipality
+ 
+ => Note:  Keep only one Layer in the Selectable list while digitization
+ 
+## Practice Practice ..........
+
+ => We will Continue our practice for Digitization
+
+ => Use Birgung_MNP_W6 Shape file and use arbitary values for attributes
 
  => Create at least 10 blocks to complete the ward
 
@@ -80,3 +90,8 @@ knitr::opts_chunk$set(echo = FALSE)
  => Do Presentation on your Output
 
 
+## What to send to the CBS?
+ 
+ => Send ABC_NP.gdb.ZIP file
+ 
+ => Send to mahatotikaram13@gmail.com
